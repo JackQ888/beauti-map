@@ -1,0 +1,33 @@
+{
+  "name": "beauti-map",
+  "description": "独立开源 3D 地图可视化组件",
+  "version": "1.0.0",
+  "author": "钱鹏亮",
+  "license": "MIT",
+  "main": "dist/beauti-map.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.dev.js",
+    "pack": "webpack --config webpack.config.pack.js"
+  },
+  "dependencies": {
+    "earcut": "^2.2.4",
+    "fontfaceobserver": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.21.0",
+    "@babel/preset-typescript": "^7.21.0",
+    "babel-loader": "^9.1.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.0",
+    "typescript": "^5.3.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

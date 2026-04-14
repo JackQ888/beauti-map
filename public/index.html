@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BeautiMap 3D - Examples</title>
+    <style>
+        @font-face {
+            font-family: 'DingTalk';
+            src: url('/assets/DingTalk_JinBuTi_Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { overflow: hidden; background: #0a0a0a; font-family: 'DingTalk', sans-serif; }
+        #app { display: flex; width: 100vw; height: 100vh; }
+        #map-container { flex: 1; height: 100%; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div id="map-container"></div>
+    </div>
+    <script src="/dist/main.js"></script>
+</body>
+</html>
